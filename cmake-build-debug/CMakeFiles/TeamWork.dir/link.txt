@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -g    CMakeFiles/TeamWork.dir/main.cpp.o  -o TeamWork -rdynamic 
