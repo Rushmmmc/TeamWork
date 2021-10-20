@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,13 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/tmp/tmp.rNSfwBc08m/main.cpp
-iostream
+D:/C++Project/TeamWork/Calculator.cpp
+Calculator.h
+D:/C++Project/TeamWork/Calculator.h
+
+D:/C++Project/TeamWork/Calculator.h
+string
 -
 unordered_map
 -
-map
+stack
 -
-string
+vector
+-
+ctype.h
+-
+iostream
 -
 

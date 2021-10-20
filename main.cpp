@@ -1,8 +1,6 @@
 
-#include <iostream>
-#include <unordered_map>
-#include <map>
-#include <string>
+#include "Examination.h"
+#include "Calculator.h"
 using namespace std;
 
 
@@ -20,6 +18,15 @@ int main(int argc, char *argv[]) {
       maxNum = stoi(argv[i + 1]);
     }
   }
-  printf("count: %d, maxNum: %d", count, maxNum);
+  vector<std::string> examinations = Examination::generate(count, maxNum);
+  int index = 1;
+  for (string& e : examinations) {
+    string res = Calculator::caculate(e);
+    e += " = ";
+    e += res;
+    cout << index++ << ": " << e << endl;
+  }
+
+  // cout << Calculator::caculate("1/5 + 1/25 + 1 + 2 + 3 + 4");
   return 0;
 }

@@ -3,7 +3,7 @@ project(TeamWork)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(TeamWork main.cpp)
+add_executable(TeamWork main.cpp Examination.cpp Calculator.cpp)
 
 #添加头文件搜索路径
 #include_directories(/usr/include/muduo)
