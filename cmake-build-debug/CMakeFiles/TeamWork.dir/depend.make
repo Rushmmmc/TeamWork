@@ -5,6 +5,7 @@ CMakeFiles/TeamWork.dir/Calculator.cpp.obj: \
  ../Calculator.cpp \
  ../Calculator.h
 CMakeFiles/TeamWork.dir/Examination.cpp.obj: \
+ ../Calculator.h \
  ../Examination.cpp \
  ../Examination.h
 CMakeFiles/TeamWork.dir/main.cpp.obj: \

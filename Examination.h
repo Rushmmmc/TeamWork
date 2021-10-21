@@ -22,7 +22,7 @@ class Examination {
     return val;
   }
 
-  static vector<std::string> generate(int count, int maxNum);
+  static vector<std::string> generate(int count, int maxNum, vector<string>& results);
 
  private:
   static unordered_map<int, char> operatorMap_;

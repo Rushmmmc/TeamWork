@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/C++Project/TeamWork/Calculator.cpp
-Calculator.h
-D:/C++Project/TeamWork/Calculator.h
-
 D:/C++Project/TeamWork/Calculator.h
 string
 -
@@ -19,8 +15,28 @@ stack
 -
 vector
 -
-ctype.h
+iostream
+-
+
+D:/C++Project/TeamWork/Examination.h
+unordered_set
+-
+unordered_map
 -
 iostream
 -
+cstdlib
+-
+ctime
+-
+vector
+-
+
+D:/C++Project/TeamWork/main.cpp
+fstream
+-
+Examination.h
+D:/C++Project/TeamWork/Examination.h
+Calculator.h
+D:/C++Project/TeamWork/Calculator.h
 
